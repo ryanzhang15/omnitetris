@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="omnitetris:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/omnitetris_jar</output-path>
+    <root id="archive" name="omnitetris.jar">
+      <element id="module-output" name="omnitetris" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/acm.jar" path-in-jar="/" />
+      <element id="module-source" name="omnitetris" />
+      <element id="library" level="project" name="acm" />
+      <element id="dir-copy" path="$PROJECT_DIR$/src/com/ryanzhang/images" />
+      <element id="dir-copy" path="$PROJECT_DIR$/src/com/ryanzhang/media" />
+    </root>
+  </artifact>
+</component>
